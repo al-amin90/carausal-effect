@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container-img {
+    width: 60vw;
+    height: 30rem;
+    border-radius: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    /* background-position: top right; */
+    animation: carasual 40s linear infinite forwards;
+}
+
+@keyframes carasual {
+    0% {
+        background-image: url('../images/img\ \(1\).jpg');
+    }
+
+    10% {
+        background-image: url('../images/img\ \(2\).jpg');
+    }
+
+    20% {
+        background-image: url('../images/img\ \(3\).jpg');
+    }
+
+    30% {
+        background-image: url('../images/img\ \(4\).jpg');
+    }
+
+    40% {
+        background-image: url('../images/img\ \(5\).jpg');
+    }
+
+    50% {
+        background-image: url('../images/img\ \(6\).jpg');
+    }
+
+    60% {
+        background-image: url('../images/img\ \(7\).jpg');
+    }
+
+    70% {
+        background-image: url('../images/img\ \(8\).jpg');
+    }
+
+    80% {
+        background-image: url('../images/img\ \(9\).jpg');
+    }
+
+    90% {
+        background-image: url('../images/naruto_uchiha_sasuke_naruto_shippuden_sharingan_mangekyou_sharingan_face_eyes_close-up_61963_1920x1080.jpg');
+    }
+
+    100% {
+        background-image: url('../images/img\ \(1\).jpg');
+    }
+}
